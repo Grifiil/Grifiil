@@ -1,0 +1,116 @@
+Soal 1
+Cari nilai KPK dari 3 dan 4
+Algoritma
+Step 1 = menerangkan variable P, Q, R, S
+Step 2 = variable P = 3, Q = 4, R=1, S= Q*R
+Step 3 = cari kelipatan Q = nilai R
+Step 4 = lalu moduluskan dengan P
+Step 5 = membuat perulangan apa bila hasil dari modulus tidak sama dengan 0 maka perulangan tetap berlakut dengan R bertambah 1
+Step 6 = apabila hasil dari modulus sama dengan 0 maka tampilan hasil dari S
+
+Pseudocode
+P = 3
+Q = 4
+R = 1
+S = Q * R
+
+while S%P !=0 do
+S = Q * R
+R = R + 1
+
+print (a)
+
+
+Soal 2
+Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : 
+Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+Step 1 siapkan P =  variable
+Step 2 variabel Q =  pisang
+Step 3 variabel R =  manggis
+Step 4 variabel S = wadah kosong
+Step 5 variabel Q berbindah ke variable C
+Step 6 variabel R berpindah ke variable A
+Step 7 variabel S berpindah ke variable B
+
+Pseudocode
+piring Q = pisang
+piring R = manggis
+piring S = ""
+
+piring S = piring Q
+piring Q = piring R
+piring R = piring S
+
+print (piring 1, piring 2)
+
+Soal 3
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25
+Tinggi 30
+Hitung luas dari segitiga tersebut.
+
+Algoritma
+Step 1 menjalankan alas, tinggi dan luas
+Step 2 varible alas bernilai 25, tinggi bernilai 30
+Step 3 menghitung luas yang bernilai alas dikali tinggi dibagi 2
+Step 4 menampilkan hasil luas
+
+Pseudocode
+alas = 25
+tinggi = 30
+
+luas = alas*tinggi*1/2
+
+print (luas)
+
+Soal 4
+Tentukan algoritma dan pseudocode luas jajar genjang
+(panjang = 5, tinggi = 3)
+Algoritma
+Step 1 Hitung luas dari segitiga tersebut. Panjang, tinggi
+Step 2 variable Panjang bernilai 5 dan tinggi bernilai 3
+Step 3 menghitung luas bernilai Panjang dikali tinggi
+Step 4 menampilkan hasil luas
+
+Pseudocode
+
+panjang = 5
+tinggi = 3
+
+luas = panjang * tinggi
+
+print (luas)
+
+Soal 5
+Step 1 mendeklarasikan jari-jari, phi dan tinggi
+Step 2 variable jari-jari yang bernilai 3, phi bernilai 3,14 dan tinggi bernilai 5
+Step 3 menghitung volume bernilai phi dikali jari-jari dikali jari-jari dikali tinggi
+Step 4 menampilkan hasil dari volume
+
+Pseudocode
+
+jari-jari = 3
+phi = 3.14
+tinggi = 5
+
+volume = phi * jari-jari * jari-jari * tinggi
+
+print (volume)
+
+Soal 6
+Step 1 mendeklarasikan jari-jari, phi, tinggi dan diameter
+Step 2 variable diameter bernilai 5, phi bernilai 3,14 dan tinggi bernilai 4
+Step 3 menghitung jari-jari bernilai diameter dikali setengah
+Step 4 menghitung volume bernilai 1/3 dikali phi dikali jari-jari dikali jari-jari dikali tinggi
+Step 5 tampilkan hasil dari volume
+
+Pseudocode
+diameter = 5
+phi = 3,14
+tinggi = 4
+
+jari-jari = diameter * 1/2
+
+volume = 1/3 * phi * jari-jari * jari-jari * tinggi
+
+print (volume)
